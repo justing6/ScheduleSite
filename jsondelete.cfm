@@ -1,6 +1,6 @@
 <cfset _eventID = url['event']>
 
-<!---http://cptgschedule.ddns.net/jsondelete.cfm?event=6676&_=1426574894827---->
+
 <CFTRY>
 	<CFSET data.SUCCESS=false>
 	<CFSET data.FOUND = false>
