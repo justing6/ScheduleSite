@@ -24,7 +24,6 @@ select * from options;
 <script src="includes/ajax/engine.js" type="text/javascript"></script>
 <script src="includes/ajax/util.js"   type="text/javascript"></script>
 <script src="includes/ajax/settings.js" type="text/javascript"></script>
-<!----<CFINCLUDE TEMPLATE="includes/adminjs.cfm">---->
 
 
 
