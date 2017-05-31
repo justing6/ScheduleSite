@@ -3,7 +3,7 @@
 <CFSET _inputDate = Now()>
 </CFIF>
 <CFTRY>
-<!---http://cptgschedule.ddns.net/jsonfinddate.cfm?date=2015-03-16T23:50:00&_=1426574894827---->
+
 <CFQUERY datasource="schedule" name="options">
 select dow, concurslots, wdend, wdstart, PickInAdvance
 FROM options
