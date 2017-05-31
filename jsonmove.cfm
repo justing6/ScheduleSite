@@ -1,7 +1,6 @@
 <cfset _eventID = url['event']>
 <cfset _inputDate = url['date']>
 
-<!---http://cptgschedule.ddns.net/jsonmove.cfm?event=6676&date=2015-05-05T08:00:00&_=1426574894827---->
 <CFTRY>
 	<CFSET data.ERROR = false>
 	<CFSET data.SUCCESS=false>
