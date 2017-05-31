@@ -2,9 +2,6 @@
 <cfset _lname = Replace(url['lname'],'*',' ','all')>
 <cfset _email = url['email']>
 
-
-<!---http://cptgschedule.ddns.net/jsonlookup.cfm?fname=Justin*test&lname=Guiao&email=justing6@gmail.com&_=1426574894827---->
-<!----http://cptgschedule.ddns.net/jsonlookup.cfm?fname=Justinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn*test&lname=Guiao&email=justing6@gmail.com&_=1426574894827---->
 <CFTRY>
 	<CFSET _currDateTime = "#dateFormat(Now(),'yyyy-mm-dd')# #timeFormat(Now(),'HH:mm:ss')#">
 	
