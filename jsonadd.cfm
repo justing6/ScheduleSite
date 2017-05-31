@@ -5,8 +5,6 @@
 <cfset _inputDate = url['date']>
 
 
-<!---http://cptgschedule.ddns.net/jsonadd.cfm?fname=Justin*test&lname=Guiao&phone=(123)*123-1234&email=justing6@gmail.com&date=2015-05-05T08:00:00&_=1426574894827---->
-<!----http://cptgschedule.ddns.net/jsonadd.cfm?fname=Justinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn*test&lname=Guiao&phone=(123)*123-1234&email=justing6@gmail.com&date=2015-05-05T08:00:00&_=1426574894827---->
 <CFTRY>
 	<CFSET _currDateTime = "#dateFormat(Now(),'yyyy-mm-dd')# #timeFormat(Now(),'HH:mm:ss')#">
 	<CFSET data.VALID = true>
